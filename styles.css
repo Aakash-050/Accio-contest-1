@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 100px;
+}
+
+main{
+
+}
+
+form{
+    margin: 2em 0;
+}
+
+input{
+    background-color: black;
+    color: white;
+    border:none;
+    border-bottom: 2px solid white;
+    height: 30px;
+    width: 70%;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+input[type='checkbox'], input[type='radio']{
+    width:auto;
+    height: auto;
+}
+input::placeholder{
+    color: rgb(182, 177, 177) ;
+    font-size: 20px;
+}
